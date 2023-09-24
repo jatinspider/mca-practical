@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{ int a,sum=0,remainder;
+printf("enter the positive num less than 1000");
+scanf("%d",a);
+
+if (0<a>1000);
+   {
+     printf("entered num is out of rang");
+   }
+else if (a>0);
+   remainder=a%10;
+   sum=sum+remainder;
+   a=a/10;
+{
+    printf("sum of digits of %d is %d",a,sum);
+}
+    return 0;
+}
