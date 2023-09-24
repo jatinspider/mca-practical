@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <conio.h>
+
+
+int main()
+{
+
+    int item,i,loc;
+    int a[]={10,50,20,100,30,35,45,67,12,72};
+
+    loc=-1;
+
+    printf("enter the element you want to find");
+    scanf("%d",&item);
+
+    while (i<10 && a[i]!=item)
+    {
+        i++;
+    }
+       if (a[i]==item)
+       {   loc=i;
+           printf("%d is found at index %d",item,loc);
+
+       }
+        else
+    {
+        printf("element not found");
+    }
+    return 0;
+
+}
